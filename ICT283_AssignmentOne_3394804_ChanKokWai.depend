@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1707972207 source:c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\date.cpp
+	"Date.h"
+
+1707972164 c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\date.h
+	<iostream>
+
+1707978193 source:c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\time.cpp
+	"Time.h"
+
+1707972289 c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\time.h
+	<iostream>
+	<iomanip>
+
+1707978003 source:c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\windrectype.cpp
+	"WindRecType.h"
+
+1707985613 c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\windrectype.h
+	<iostream>
+	<string>
+	"Date.h"
+	"Time.h"
+	"WindSpeed.h"
+	"SolarRadiation.h"
+	"Temperature.h"
+
+1707972489 source:c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\windrectypetest.cpp
+	<iostream>
+	"WindRecType.h"
+
+1707972952 source:c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\measurement.cpp
+	"Measurement.h"
+
+1707981106 c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\measurement.h
+
+1707973433 source:c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\measurementtest.cpp
+	<iostream>
+	"Measurement.h"
+
+1707984679 source:c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\windspeed.cpp
+	"WindSpeed.h"
+
+1707981224 c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\windspeed.h
+	<iostream>
+	"Measurement.h"
+
+1707980595 source:c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\main.cpp
+	<iostream>
+	<fstream>
+	"WindRecType.h"
+	"Vector.h"
+
+1707985542 source:c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\temperature.cpp
+	"Temperature.h"
+
+1707981650 c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\temperature.h
+	<iostream>
+	"Measurement.h"
+
+1707980321 c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\vector.h
+
+1707983857 c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\solarradiation.h
+	<iostream>
+	"Measurement.h"
+
+1707984909 source:c:\users\chankokwai\desktop\ict283_assignmentone_3394804_chankokwai\solarradiation.cpp
+	"SolarRadiation.h"
+
