@@ -31,6 +31,13 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Client.cpp" />
+		<Unit filename="Client.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Constant.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="Date.cpp" />
 		<Unit filename="Date.h">
 			<Option target="&lt;{~None~}&gt;" />
@@ -45,6 +52,14 @@
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="MeasurementTest.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="Processor.cpp" />
+		<Unit filename="Processor.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ProcessorTest.cpp">
 			<Option compile="0" />
 			<Option link="0" />
 		</Unit>

@@ -1,6 +1,8 @@
 #ifndef MEASUREMENT_H_INCLUDED
 #define MEASUREMENT_H_INCLUDED
 
+#include<cmath>
+
 /**
  * @name Measurement
  * @brief Represents a base class.
@@ -42,6 +44,12 @@ public:
      * @post Sets the measurement variable to the specified value.
      */
     void SetMeasurement( const float &measurement );
+
+    float GetMean( float &sum, unsigned &count );
+
+    float GetVariance( float &variance, float &squareDistance, float &mean );
+
+    float GetStandardDeviation( float &variance, unsigned &count );
 
 private:
     unsigned INITIAL_VALUE = 0.0;   ///< Initial value for the Measurement.
